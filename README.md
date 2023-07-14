@@ -6,8 +6,12 @@ This repo will serves as the place where i keep a bunch of notebooks related to 
 So far i have fount the following libraries with the following features:
 
 
-|Package | Method | Feature Engineering | Model Types | 
-|:------|:-------------:|:----------------------:|:---------------------:|
-|nixtla|recursive|✅| Stats,ML,DL|✅|
-|darts|recursive and multistep|✅|Stats,ML,DL|✅|
-|sktime|recursive, direct, multistep, dirrec|✅|Stats,ML|✅|
+|Name| Type | Methods | Feature Engineering | Model Types | 
+|:------|:------|:-------------:|:----------------------:|:---------------------:|
+|nixtla| framework |recursive|✅| Stats,ML,DL|
+|darts|framework | recursive and multistep|✅|Stats,ML,DL|
+|sktime| framework |recursive, direct, multistep, dirrec|✅|Stats,ML|
+|statsforecast | package | recursive | no | Stats | 
+
+  
+
