@@ -10,7 +10,7 @@ So far i have fount the following libraries with the following features:
 |:------|:------|:-------------:|:----------------------:|:---------------------:|
 |sktime| framework |recursive, direct, multistep, dirrec|✅|Stats,ML|
 |darts|framework | recursive and multistep|✅|Stats,ML,DL|
-|nixtla| framework |recursive| (only differencing) | Stats,ML,DL|
+|nixtla mlforecast | framework |recursive| (only differencing) | Stats,ML,DL|
 |statsforecast | package | recursive | no | Stats | 
 
   
