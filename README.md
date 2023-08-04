@@ -1,5 +1,5 @@
-# Time Series Forcasting Collection
-This repo will serves as the place where i keep a bunch of notebooks related to time series forcasting. 
+# Time Series Forecasting Collection
+This repo will serves as the place where i keep a bunch of notebooks related to time series forecasting. 
 
 ## Used Packages
 
