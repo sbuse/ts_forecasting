@@ -2,3 +2,4 @@
 .vscode/
 .conda/
 .databricks/
+.darts_logs/
