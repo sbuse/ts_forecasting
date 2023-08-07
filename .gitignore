@@ -3,3 +3,4 @@
 .conda/
 .databricks/
 .darts_logs/
+.__pycache__/
