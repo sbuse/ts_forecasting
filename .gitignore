@@ -4,3 +4,10 @@
 .databricks/
 .darts_logs/
 .__pycache__/
+.download_entsoe.eu
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/MHLV_data-2015-2019.xlsx
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/monthly_hourly_load_values_2021.xlsx
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/monthly_hourly_load_values_2022.xlsx
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/monthly_hourly_load_values_2023.xlsx
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/Monthly-hourly-load-values_2006-2015.xlsx
+mittelfristlastprognose/pretrain_nbeats/data/download_entsoe.eu/swissGridExport.csv
