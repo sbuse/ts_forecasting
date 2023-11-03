@@ -56,6 +56,7 @@ if __name__ == "__main__":
 
   pdf["Timestamp"] =  pd.to_datetime(pdf['Timestamp'],utc=True)
   pdf = pdf.set_index(pdf["Timestamp"])
+  pdf = pdf.drop(columns=["Timestamp"])
   pdf = resample_fix_ends(pdf,frequency)
   pdf = reassign_outliers(pdf)
 
