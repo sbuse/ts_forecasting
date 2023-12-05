@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import sys
 import warnings
+import ssl
+
 warnings.filterwarnings("ignore")
 
 def resample_fix_ends(pdf,frequency):
@@ -49,7 +51,7 @@ if __name__ == "__main__":
   else:
       raise ValueError("The frequency given is not valid. Please use 'd' for daily or 'm' for monthly.")
 
-
+  ssl._create_default_https_context = ssl._create_unverified_context
   url = "https://data.stadt-zuerich.ch/dataset/ewz_stromabgabe_netzebenen_stadt_zuerich/download/ewz_stromabgabe_netzebenen_stadt_zuerich.csv"
   pdf = pd.read_csv(url,index_col=None)
 
